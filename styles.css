@@ -1,3 +1,16 @@
+/* VARIABLES */
+:root {
+  --main-background: hsl(233, 47%, 7%);
+  --card-background: hsl(244, 38%, 16%);
+  --accent-color: hsl(277, 64%, 61%);
+  --main-heading-color: hsl(0, 0%, 100%);
+  --main-paragraph-color: hsla(0, 0%, 100%, 0.75);
+  --stat-headings-color: hsla(0, 0%, 100%, 0.6);
+  --body-font-size: 15px;
+  --mobile-break-point: 375px;
+  --desktop-break-point: 1440px;
+}
+
 /* CSS RESET */
 * {
   padding: 0;

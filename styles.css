@@ -25,6 +25,16 @@ body {
 
 .card-container {
   background-color: var(--card-background);
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-text {
+  float: left;
+  width: 50%;
 }
 
 .main-header {

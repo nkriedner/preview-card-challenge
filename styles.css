@@ -27,12 +27,24 @@ body {
   background-color: var(--card-background);
 }
 
-header {
+.main-header {
   color: var(--main-heading-color);
 }
 
-header .insights {
+.main-paragraph {
+  color: var(--main-paragraph-color);
+}
+
+.insights {
   color: var(--accent-color);
+}
+
+.stat-number {
+  color: var(--main-heading-color);
+}
+
+.stat-name {
+  color: var(--stat-headings-color);
 }
 
 /* 

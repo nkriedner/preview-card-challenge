@@ -23,6 +23,10 @@ body {
   background: var(--main-background);
 }
 
+.card-container {
+  background-color: var(--card-background);
+}
+
 header {
   color: var(--main-heading-color);
 }

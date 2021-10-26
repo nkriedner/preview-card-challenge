@@ -18,9 +18,17 @@
   box-sizing: border-box;
 }
 
-/* MAIN STYLING FOR THE BODY */
+/* MAIN STYLING */
 body {
   background: var(--main-background);
+}
+
+header {
+  color: var(--main-heading-color);
+}
+
+header .insights {
+  color: var(--accent-color);
 }
 
 /* 

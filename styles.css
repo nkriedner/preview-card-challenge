@@ -18,6 +18,11 @@
   box-sizing: border-box;
 }
 
+/* MAIN STYLING FOR THE BODY */
+body {
+  background: var(--main-background);
+}
+
 /* 
 FONTS:
   font-family: 'Inter', sans-serif;

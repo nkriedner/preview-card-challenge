@@ -6,7 +6,7 @@
   --main-heading-color: hsl(0, 0%, 100%);
   --main-paragraph-color: hsla(0, 0%, 100%, 0.75);
   --stat-headings-color: hsla(0, 0%, 100%, 0.6);
-  --body-font-size: 15px;
+  --body-font-size: 17px;
 }
 
 /* CSS RESET */
@@ -61,8 +61,8 @@ body {
   width: 50%;
   display: flex;
   flex-direction: column;
-  padding: 3rem;
-  padding-right: 8rem;
+  padding: 4rem;
+  padding-right: 5rem;
 }
 
 .main-header {
@@ -82,7 +82,7 @@ body {
 .card-stats {
   display: flex;
   justify-content: space-between;
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 .stat-number {
@@ -115,9 +115,12 @@ body {
   .card-text {
     padding: 2.5rem;
   }
+  .main-paragraph {
+    font-size: .95rem;
+  }
   .card-stats {
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 3.5rem;
   }
   .stat-content {
     margin-bottom: 1.5rem;
